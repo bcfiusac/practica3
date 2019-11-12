@@ -1,0 +1,31 @@
+{
+  "name": "siu",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "estado": {
+      "type": "number",
+      "required": true
+    },
+    "modo": {
+      "type": "number",
+      "required": true
+    },
+    "fecha": {
+      "type": "date",
+      "required": true,
+      "defaultFn": "now"
+    },
+    "accion": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -42,5 +42,9 @@
   "final": {
     "dataSource": "mibase",
     "public": true
+  },
+  "siu": {
+    "dataSource": "mibase",
+    "public": true
   }
 }

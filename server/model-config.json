@@ -38,5 +38,9 @@
   "practica3": {
     "dataSource": "mibase",
     "public": true
+  },
+  "final": {
+    "dataSource": "mibase",
+    "public": true
   }
 }

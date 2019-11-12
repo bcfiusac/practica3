@@ -1,0 +1,27 @@
+{
+  "name": "final",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "estado": {
+      "type": "number",
+      "required": true
+    },
+    "accion": {
+      "type": "string",
+      "required": true
+    },
+    "fecha": {
+      "type": "date",
+      "required": true,
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

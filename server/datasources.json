@@ -12,6 +12,6 @@
     "name": "mibase",
     "user": "byron",
     "connector": "mongodb",
-    "timezone": "Asia/Kolkata"
+    "timezone": "UTC"
   }
 }
